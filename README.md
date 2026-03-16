@@ -32,7 +32,7 @@ Ultimately, the project aimed to shift the organization from a reactive churn re
 
 ## Interactive Power BI Dashboard
 Click below to explore the live dashboard
-[View dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDkzNDgxYzItOWYyYi00YjYzLThjOTAtNjU5ZDhlZmFhZTE4IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9)
+- [View dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDkzNDgxYzItOWYyYi00YjYzLThjOTAtNjU5ZDhlZmFhZTE4IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9)
 
 ## Datasets
 - [Find the first dataset here](./Dataset/AccountInfo.xlsx%20-%20AccountInfo.csv.csv)
