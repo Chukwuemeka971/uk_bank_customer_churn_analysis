@@ -29,7 +29,7 @@ Ultimately, the project aimed to shift the organization from a reactive churn re
 ## Project Images
 ![](./Images/Overview.png)
 ![](./Images/Churn%20Status.png)
-
+![](./Images/data_model.png)
 ## Interactive Power BI Dashboard
 Click below to explore the live dashboard
 - [View dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDkzNDgxYzItOWYyYi00YjYzLThjOTAtNjU5ZDhlZmFhZTE4IiwidCI6ImZmMGYzZTNhLTNlNTMtNDU0Zi1iMmI1LTZjNjg3NTNiOGVlNCJ9)
