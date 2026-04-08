@@ -30,6 +30,7 @@ A data‑driven churn framework enables banks to:
 - Improve customer experience
 - Protect high‑value segments
 - Strengthen competitive positioning
+  
 This project provides Veritas Bank with the analytical infrastructure required to transition from intuition‑driven decisions to evidence‑based retention strategy.
 
 ---
