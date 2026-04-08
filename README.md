@@ -40,6 +40,7 @@ The project aimed to design and implement a scalable churn analytics solution th
 - Build a structured analytical dataset optimized for reporting and predictive modeling
 - Deliver interactive Power BI dashboards for real‑time churn monitoring
 - Translate insights into actionable recommendations for marketing, CX, and product teams
+  
 Ultimately, the goal was to move the bank from reactive churn response to proactive, insight‑led retention.
 
 ---
