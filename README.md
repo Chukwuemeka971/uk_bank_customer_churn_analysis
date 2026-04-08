@@ -1,29 +1,46 @@
-# Analyzing Customer Churn and Retention Patterns in a UK-Based Multinational Retail Bank
+# Customer Churn and Retention Analytics for a UK-Based Multinational Retail Bank
 ![](./Images/bank_image_1.png)
 ## Project Description
-Designed and delivered a churn analytics and customer segmentation solution by engineering structured features in SQL and developing executive Power BI dashboards to identify behavioral, geographic, and financial risk drivers. Analysed a 10,000-customer portfolio with a 13.85% churn rate (£271M revenue base), building a risk-based intervention framework that could reduce churn by 3%, protecting an estimated £5M+ in revenue while enabling data-driven retention targeting and improved customer lifetime value.
+A full churn intelligence and customer segmentation solution engineered using SQL and Power BI to help Veritas Bank identify at‑risk customers, understand churn drivers, and implement proactive retention strategies. The solution analyzed a 10,000‑customer portfolio with a 13.85% churn rate (£271M revenue base) and delivered a risk‑based intervention framework capable of reducing churn by an estimated 3% — protecting £5M+ in annual revenue.
 
 ---
 ## Overview
-Veritas Bank, a UK-based multinational retail bank, was experiencing rising customer attrition in a highly competitive retail banking market, particularly in Germany and France where digital-first competitors and fintech firms were rapidly gaining market share.
--  Despite having access to large volumes of customer data, the bank lacked structured behavioral segmentation and real-time churn visibility, limiting its ability to identify at-risk customers early and implement proactive retention strategies. 
-- This project was initiated to bridge the gap between raw transactional data and strategic decision-making. By consolidating customer demographic, financial, and engagement data into a structured analytical model, the project transformed fragmented datasets into a unified churn intelligence framework.
-- The focus was not only on identifying who churned, but understanding why churn was occurring, which customer segments were most vulnerable, and what behavioral patterns signaled early disengagement. Through advanced data modeling and interactive Power BI reporting, the project provided leadership with clear visibility into churn drivers across geography, age groups, product usage, and engagement levels — enabling data-driven retention planning instead of reactive customer recovery
+Veritas Bank, a UK‑based multinational retail bank, faced rising customer attrition across key European markets — particularly Germany and France, where digital‑first competitors and fintech challengers were rapidly gaining ground.
+
+Despite having extensive customer data, the bank lacked:
+- Structured behavioral segmentation
+- Real-time churn visibility
+- A unified analytical dataset
+- Clear understanding of churn drivers
+
+This project transformed fragmented demographic, financial, and engagement data into a centralized churn intelligence framework, enabling leadership to:
+- Identify who is churning
+- Understand why churn occurs
+- Detect early behavioral warning signals
+- Target high‑risk segments with precision
+- Shift from reactive recovery to proactive retention
+Through SQL‑based feature engineering and interactive Power BI dashboards, the project delivered a complete analytical foundation for customer lifecycle management and strategic decision‑making.
 
 ---
 ## Rationale For The Project
-Customer churn directly impacts revenue and long-term profitability in retail banking. Understanding which customers are likely to churn and why, allows organizations to intervene early, personalize engagement, and improve retention. This project provides a data-driven foundation for customer lifecycle management and strategic decision-making.
+Customer churn directly impacts profitability, revenue stability, and long‑term customer lifetime value.
+A data‑driven churn framework enables banks to:
+- Detect early disengagement
+- Personalize retention strategies
+- Improve customer experience
+- Protect high‑value segments
+- Strengthen competitive positioning
+This project provides Veritas Bank with the analytical infrastructure required to transition from intuition‑driven decisions to evidence‑based retention strategy.
 
 ---
-## Aim Of The Project
-The primary aim of this project was to design and implement a data-driven churn analysis framework that enables Veritas Bank to proactively reduce customer attrition and protect revenue. Specifically, the project sought to: 
-- Identify key demographic, behavioral, and financial factors influencing customer churn 
-- Segment customers based on churn risk to support targeted retention strategies 
-- Develop a structured analytical dataset optimized for reporting and future predictive modeling 
-- Provide interactive dashboards that allow stakeholders to monitor churn trends in real time 
-- Translate analytical insights into actionable recommendations for marketing, customer experience, and product teams 
-
-Ultimately, the project aimed to shift the organization from a reactive churn response model to a proactive, insight-led retention strategy — improving customer lifetime value, increasing engagement, and strengthening competitive positioning in key European markets.
+## Project Objectives
+The project aimed to design and implement a scalable churn analytics solution that would:
+- Identify demographic, behavioral, and financial factors influencing churn
+- Segment customers by churn risk to support targeted interventions
+- Build a structured analytical dataset optimized for reporting and predictive modeling
+- Deliver interactive Power BI dashboards for real‑time churn monitoring
+- Translate insights into actionable recommendations for marketing, CX, and product teams
+Ultimately, the goal was to move the bank from reactive churn response to proactive, insight‑led retention.
 
 ---
 ## Project Scope
@@ -32,7 +49,7 @@ Ultimately, the project aimed to shift the organization from a reactive churn re
 - Feature engineering and churn-related column derivation 
 - Creation of analytical views and segmentation tables 
 - Power BI dashboard development (Demographics & Churn Analysis)
-- Insight summarization and presentation for stakeholders
+- Insight synthesis and stakeholder presentation
 
 ---
 ## Project Images
@@ -56,16 +73,14 @@ Below are key SQL queries used for data extraction and transformation
 - [Customer segmentation](./Queries/customer_segmentations.sql)
 
 ---
-## Insights
-- Our customer base is heavily concentrated in the UK (50%), establishing it as the dominant region
-- Most customers are young or middle‑aged adults, reflecting a predominantly working-age population
-- Germany and France have churn rates nearly double that of the UK, signalling localized experience gaps — likely in  digital engagement, service responsiveness, or product relevance
-- Young and middle-aged adults represent the largest share of churn exposure.These digitally active, high-choice customers  are the primary targets of fintech competitors.
-- Very low-balance customers churn the most frequently.
-However, high-balance customers — though fewer — represent significantly higher revenue risk per customer
-- Churn is heavily concentrated among inactive customers, making inactivity the strongest predictor of churn across all engagement levels
-- Churn rates remain consistently high across all credit score categories and tenure segments, showing minimal variations. This suggests that neither financial profile nor length of relationship meaningfully protects customers from churn 
-- Customers with credit cards show lower churn propensity.
+## Key Insights
+- The UK accounts for 50% of the customer base, making it the dominant region.
+- Germany and France show churn rates nearly double the UK, indicating localized experience gaps — likely tied to digital engagement and service responsiveness.
+- Young and middle‑aged adults represent the highest churn exposure, aligning with segments most targeted by fintech competitors.
+- Low‑balance customers churn most frequently, but high‑balance customers pose the greatest revenue risk per customer.
+- Inactivity is the strongest predictor of churn, cutting across all engagement levels.
+- Churn rates remain high across all credit score and tenure groups, showing that neither financial profile nor relationship length protects against churn.
+- Credit card holders exhibit lower churn propensity, suggesting product stickiness.
 
 ---
 ## Strategic Recommendations
@@ -83,7 +98,7 @@ However, high-balance customers — though fewer — represent significantly hig
   - Low balance customers: Use automated, low-cost digital retention nudges.
   - High balance customers: Assign relationship managers + loyalty incentives.
 - Protect High-Value Segments with Early Intervention: 
-Monitor behavioral changes (reduced transactions, declining activity).
+Monitor behavioral changes such as reduced transactions or declining activity
 
 
 
