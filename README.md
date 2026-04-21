@@ -1,11 +1,5 @@
 # Customer Churn and Retention Analytics for a UK-Based Multinational Retail Bank
 ![](./Images/bank_image_1.png)
-## Project Description
-A full churn intelligence and customer segmentation solution built using SQL and Power BI to help Veritas Bank identify at-risk customers, understand churn drivers, and design proactive retention strategies.
-
-The analysis covered a 10,000-customer portfolio with a 13.85% churn rate (£271M revenue base), providing a data-driven framework for reducing churn and protecting customer value.
-
----
 ## Overview
 Veritas Bank, a UK-based multinational retail bank, faced rising customer churn across key European markets, particularly in Germany and France where fintech competitors were gaining traction.
 
